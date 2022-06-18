@@ -75,7 +75,7 @@ print(y)
 plt.figure(num=0, dpi=120)
 plt.plot(xaxis,yaxis)
 plt.plot(xaxis, y)
-plt.title("Wavefunctions assocaited with QMSHO")
+plt.title("Wavefunctions assocaited with QMSHO in Morse Potential")
 plt.xlabel("x=grid=p*d_x")
 plt.ylabel("Psi")
 # We are only getting limited no. of bound staes because oue boundries are not (-infinity, infinity) but (a,b), so bound states are boundery as well as barrier height depdendent
